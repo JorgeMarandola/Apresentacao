@@ -1,0 +1,188 @@
+/* Plano de fundo */
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*  Logotipo cabeçalho */
+#imagem-logo{
+    text-align: center; 
+    background-color: rgb(255, 255, 255);
+}
+
+/* Tratando a imagem */
+
+#logo{
+    line-height: 40px;
+}
+
+/* Logotipo da pg home */
+#imagem-logo1{
+    text-align: left;
+    border-bottom: 1px solid;
+    width: 94.5%;
+}
+
+#imagem-logo1, h3{
+    display: inline-block;
+}
+
+#imagem-logo2{
+    text-align: center;
+    border-bottom: 1px solid;
+    width: 94.5%;
+}
+
+/* Personalizando minha foto na home */
+
+#imagem-home{
+    display: inline-block;
+}
+
+#fotoMinha{
+    border: 2px solid purple;
+    position: absolute;
+    left: 50%;
+    max-width: 100%;
+    width: 21rem;
+    max-height: 75%;
+    height: 16rem;
+}
+
+/* Personalizando os botões */
+
+.botoes{
+    background-color: white;
+    border-bottom: 2px solid purple;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 1px;
+    width: auto;
+    height: 50px;
+}
+
+.botoes1{
+    color: white;
+    background-color: rgb(221, 160, 221);
+    border-bottom: 2px solid white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 1px;
+    width: auto;
+    height: 50px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    width: 500px;
+}
+/* Centralizar links */
+div{
+    text-align: center;
+}
+
+/* Personalizando texto */
+
+p{
+    text-align: left;
+    margin-left: 3.5%;
+    margin-right: 60%;
+    font-size: large;
+    justify-content: center;
+}   
+
+/* Personalizando a tabela */
+
+#meuNome{
+    text-align: center;
+    margin-left: 36%;
+    margin-right: 34%;
+    font-size: 1.5rem;
+}
+
+table{
+    border: 2px solid purple;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+    max-width: auto;
+    max-height: auto;
+}
+
+td{
+    border-bottom: 2px solid purple;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 150px;
+}
+
+#linhaTitulos{
+    background-color: rgb(221, 160, 221);
+}
+
+#linhaNum{
+    text-align: center;
+}
+
+#linhaTituloN{
+    text-align: center;
+    background-color: rgb(221, 160, 221);
+}
+
+/* Personalizando texto da página pessoal */
+
+#pergunta{
+    text-align: center;
+    justify-content: center;
+    border: 2px solid purple;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 460px;
+    max-width: auto;
+    max-height: auto;
+}
+
+/* Personalizando galeria */
+
+#fotoGale{
+    border: 2px solid purple;
+    position: absolute;
+    right: 60%;
+    max-width: 100%;
+    width: 23rem;
+    max-height: 75%;
+    height: 25rem;
+}
+
+#txtGale{
+    text-align: left;
+    margin-left: 43%;
+    margin-right: 6%;
+    font-size: large;
+    justify-content: center;
+}
+
+/* Rodapé */
+footer{
+    text-align: center;
+}
